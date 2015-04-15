@@ -58,5 +58,40 @@ github "stdlib",      "4.2.1", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",        "1.0.0"
 github "xquartz",     "1.2.1"
 
+# JH - added
+github "alfred",      "1.4.0"
+github "skype",       "1.1.0"
+github "iterm2",      "1.2.4"
+github "atom",        "1.2.0"
+# https://github.com/boxen/puppet-osx
+# https://github.com/boxen/puppet-java
+# https://github.com/boxen/puppet-vagrant
+# ??? https://github.com/boxen/puppet-virtualbox
+# https://github.com/boxen/puppet-docker
+#  https://github.com/boxen/puppet-sublime_text
+# https://github.com/boxen/puppet-libreoffice
+# https://github.com/boxen/puppet-dropbox
+# https://github.com/boxen/puppet-tunnelblick
+# https://github.com/boxen/puppet-firefox
+# https://github.com/boxen/puppet-chrome
+# https://github.com/boxen/puppet-clojure
+# https://github.com/boxen/puppet-skitch
+# https://github.com/boxen/puppet-dash
+# ??? https://github.com/boxen/puppet-jq
+# ??? https://github.com/boxen/puppet-growly
+# ? https://github.com/boxen/puppet-emacs
+# https://github.com/boxen/puppet-vlc
+# ? https://github.com/boxen/puppet-intellij
+# https://github.com/boxen/puppet-wget
+# ? https://github.com/boxen/puppet-transmit / https://github.com/boxen/puppet-transmission
+# https://github.com/boxen/puppet-heroku
+# !? https://github.com/boxen/puppet-repository
+# # https://github.com/boxen/puppet-handbrake
+# https://github.com/boxen/puppet-fish
+# https://github.com/boxen/puppet-nvm
+# ? https://github.com/boxen/puppet-autojump
+# https://github.com/boxen/puppet-googledrive
+# ? https://github.com/boxen/puppet-csshx
+# https://github.com/boxen/puppet-gitx
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
