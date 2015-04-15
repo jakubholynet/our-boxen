@@ -60,10 +60,13 @@ github "xquartz",     "1.2.1"
 
 # JH - added
 github "alfred",      "1.4.0"
-github "skype",       "1.1.0"
 github "iterm2",      "1.2.4"
 github "atom",        "1.2.0"
 github "gitx",        "1.2.0"
+
+github "osx",         "2.8.0"
+github "dropbox",     "1.4.1"
+github "fish",        "1.0.0"
 # https://github.com/boxen/puppet-osx
 # https://github.com/boxen/puppet-java
 # https://github.com/boxen/puppet-vagrant

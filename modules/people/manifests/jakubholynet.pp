@@ -40,4 +40,8 @@ class people::jakubholynet {
     key  => "cmd-shift-f",
     menu => "Toggle Full Screen"
   }
+
+  include fish
+  include dropbox
+  package { 'skype': provider => 'brewcask' }
 }
