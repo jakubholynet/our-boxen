@@ -63,6 +63,7 @@ github "alfred",      "1.4.0"
 github "skype",       "1.1.0"
 github "iterm2",      "1.2.4"
 github "atom",        "1.2.0"
+github "gitx",        "1.2.0"
 # https://github.com/boxen/puppet-osx
 # https://github.com/boxen/puppet-java
 # https://github.com/boxen/puppet-vagrant
@@ -92,6 +93,5 @@ github "atom",        "1.2.0"
 # ? https://github.com/boxen/puppet-autojump
 # https://github.com/boxen/puppet-googledrive
 # ? https://github.com/boxen/puppet-csshx
-# https://github.com/boxen/puppet-gitx
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
