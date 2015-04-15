@@ -44,4 +44,20 @@ class people::jakubholynet {
   include fish
   include dropbox
   package { 'skype': provider => 'brewcask' }
+
+  osx::recovery_message { 'If this Mac is found, please call +46 966 23 666': }
+  include osx::global::enable_keyboard_control_access
+  include osx::global::enable_standard_function_keys
+  include osx::dock::autohide
+  include osx::finder::unhide_library
+  include osx::finder::show_hidden_files
+  include osx::finder::show_all_filename_extensions
+  include osx::universal_access::ctrl_mod_zoom
+  include osx::no_network_dsstores
+  osx::dock::hot_corner { 'Bottom Left':
+    action => 'Start Screen Saver'
+  }
+  osx::dock::hot_corner { 'Bottom Right':
+    action => 'Put Display to Sleep'
+  }
 }
