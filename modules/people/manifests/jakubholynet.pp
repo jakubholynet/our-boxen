@@ -17,7 +17,7 @@ class people::jakubholynet {
   # Consider: mocha-test-runner
   # atom::package { 'editorconfig': } # Fails b/c pkg edit. already exists (but in himebrew, not atom)
 
-  #package { 'puppet-lint': ensure => installed, provider => 'gem' } 
+  #package { 'puppet-lint': ensure => installed, provider => 'gem' }
   # ^ Fails:
   # Error: Could not prefetch package provider 'gem': Could not list gems: Execution of '/opt/boxen/rbenv/shims/gem list --local' returned 1: /Library/Ruby/Gems/1.8/gems/bundler-1.5.3/lib/bundler/spec_set.rb:92:in `block in materialize': Could not find rake-10.3.2 in any of the sources (Bundler::GemNotFound)
   # Though running '/opt/boxen/rbenv/shims/gem list --local' works
@@ -33,4 +33,11 @@ class people::jakubholynet {
   # Install editorconfig CLI (or does it Atom install automatically?)
   # The resource name must not clash with the atom package name
   package { 'editorconfig CLI': name => 'editorconfig', ensure => installed }
+
+  shortcut {
+  "iTerm Full Screen":
+    app  => "com.googlecode.iterm2",
+    key  => "cmd-shift-f",
+    menu => "Toggle Full Screen"
+  }
 }
